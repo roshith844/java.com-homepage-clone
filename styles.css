@@ -6,6 +6,39 @@ header {
      height: 82px;
      background-color: #3a75b0;
      display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+
+.left-header {
+     width: 55%;
+     height: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 0px;
+}
+
+.logo {
+     width: 115px;
+     margin-left: 10px;
+     margin-bottom: 12px;
+     margin-top: 1px;
+}
+
+.links {
+     font-size: 26px;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight: 500;
+     margin-top: 10px;
+     margin-left: 0px;
+}
+
+.nav-link {
+     color: white;
+     text-decoration: none;
+     margin: 0px 18px;
 
 }
 
@@ -15,5 +48,5 @@ header {
 }
 
 .search-icon {
-     width: 15px;
+     width: 7px;
 }

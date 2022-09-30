@@ -1,0 +1,19 @@
+body {
+     margin: 0px;
+}
+
+header {
+     height: 82px;
+     background-color: #3a75b0;
+     display: flex;
+
+}
+
+.search-div {
+     border: 1px solid #DDD;
+     background-color: white;
+}
+
+.search-icon {
+     width: 15px;
+}

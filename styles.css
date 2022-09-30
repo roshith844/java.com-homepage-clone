@@ -79,7 +79,7 @@ main {
 }
 
 .left-section {
-     width: 50%;
+     width: 60%;
      height: 405px;
      display: flex;
      flex-direction: column;
@@ -90,7 +90,7 @@ main {
 .right-section {
      height: 405px;
      background-color: green;
-     width: 50%;
+     width: 40%;
      display: flex;
 }
 
@@ -113,4 +113,16 @@ h1 {
      font-family: "OracleSansVF", "OracleSansVFCyGr", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
      font-size: 15px;
      font-weight: 500;
+}
+.download-button:hover{
+     background: #036638;
+}
+.main-links a{
+     font-size: 15px;
+     color: #006B8F;
+     font-family: "OracleSansVF", "OracleSansVFCyGr", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+     text-decoration: none;
+}
+.main-links a:hover{
+     text-decoration: underline;
 }

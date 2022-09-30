@@ -89,7 +89,6 @@ main {
 
 .right-section {
      height: 405px;
-     background-color: green;
      width: 40%;
      display: flex;
 }
@@ -125,4 +124,13 @@ h1 {
 }
 .main-links a:hover{
      text-decoration: underline;
+}
+.right-section{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+.right-section img{
+     width: 330px;
+     height: 303px;
 }

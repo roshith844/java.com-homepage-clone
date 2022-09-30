@@ -1,7 +1,10 @@
 body {
      margin: 0px;
+     height: 100vh;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/*header*/
 header {
      height: 82px;
      background-color: #3a75b0;
@@ -25,7 +28,6 @@ header {
 
 .links {
      font-size: 26px;
-     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
      font-weight: 550;
      margin: 0px 48px;
 
@@ -67,5 +69,30 @@ input {
      width: 160px;
      height: 100%;
      border-color: transparent;
+
+}
+
+/* Main */
+main {
+     display: flex;
+
+}
+
+.left-section {
+     width: 50%;
+     height: 405px;
+}
+
+.right-section {
+     height: 405px;
+     background-color: green;
+     width: 50%;
+     display: flex;
+}
+
+h1 {
+     background: none;
+     color: #7A736E;
+     font-weight: 300;
 
 }

@@ -209,3 +209,24 @@ h1 {
      background-color: #FFFFFF;
      color: #7A736E;
 }
+
+/*Footer*/
+footer {
+     height: 112px;
+     background-color: #DFD3D3;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     font-size: 12px;
+
+}
+
+footer a {
+     color: #2d5986;
+     text-decoration: none;
+}
+
+footer a:hover {
+     text-decoration: underline;
+}

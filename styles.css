@@ -67,7 +67,7 @@ input {
      width: 160px;
      height: 100%;
      border-color: transparent;
-     background: url(./images/magnify.png) no-repeat;
+     background: url(./images/magnify.png) no-repeat 15px 15px;
      background-size: 15px 15px;
      padding-left: 30px;
      background-position: 10px;

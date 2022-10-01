@@ -204,3 +204,8 @@ h1 {
      border-width: 1px;
      border-style: solid;
 }
+
+.download-jdk button:hover {
+     background-color: #FFFFFF;
+     color: #7A736E;
+}

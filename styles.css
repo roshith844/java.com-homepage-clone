@@ -57,11 +57,6 @@ header {
 
 }
 
-.search-icon {
-     width: 15px;
-     margin-left: 10px;
-}
-
 .right-header {
      display: flex;
      flex-direction: column;
@@ -72,7 +67,16 @@ input {
      width: 160px;
      height: 100%;
      border-color: transparent;
+     background: url(./images/magnify.png) no-repeat;
+     background-size: 15px 15px;
+     padding-left: 30px;
+     background-position: 10px;
 
+}
+
+input:focus {
+     width: 300px;
+     transition: ease-in-out, width .5s ease-in-out;
 }
 
 /* Main */
@@ -133,6 +137,7 @@ h1 {
 
 .main-links a:hover {
      text-decoration: underline;
+
 }
 
 .right-section {

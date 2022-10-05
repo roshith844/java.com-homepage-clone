@@ -104,7 +104,6 @@ h1 {
      color: #7A736E;
      font-size: 40px;
      font-weight: 300;
-     font-family: "OracleSansVF", "OracleSansVFCyGr", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
      margin-top: 98px;
 
 }
@@ -116,7 +115,6 @@ h1 {
      width: 225px;
      border: none;
      border-radius: 5px;
-     font-family: "OracleSansVF", "OracleSansVFCyGr", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
      font-size: 15px;
      font-weight: 500;
 }
@@ -132,7 +130,6 @@ h1 {
 .main-links a {
      font-size: 15px;
      color: #006B8F;
-     font-family: "OracleSansVF", "OracleSansVFCyGr", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
      text-decoration: none;
 }
 
